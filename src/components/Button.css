@@ -1,0 +1,27 @@
+.span-two {
+  grid-column: 3/5;
+  width: 130px;
+  border-radius: 60px;
+}
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.4em;
+  align-items: center;
+}
+
+button:hover {
+  filter: brightness(120%);
+}
+button:active {
+  filter: brightness(90%);
+}
+.gray {
+  background: #a6a6a6;
+}
+.orange {
+  background-color: #ff9501;
+}
